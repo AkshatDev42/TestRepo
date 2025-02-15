@@ -9,7 +9,7 @@ import { NavigationMenu, NavigationMenuList, NavigationMenuItem, NavigationMenuT
 function Navbar() {
     const navigate = useNavigate();
     return (
-        <nav className='fixed top-0 left-0 min-w-screen flex justify-between items-center px-1'>
+        <nav className='fixed top-0 left-0 min-w-screen flex justify-between items-center px-1 bg-white shadow-md z-[1000]'>
             <div className='flex items-center font-bold text-xl md:text-2xl lg:text-3xl'>
                 <img src={logo} alt="Logo" className='w-20 h-20 md:w-28 md:h-28 cursor-pointer' onClick={() => navigate('/')} />
                 <div>
